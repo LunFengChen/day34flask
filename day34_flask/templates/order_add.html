@@ -1,0 +1,25 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+	<div class="panel panel-default">
+		<div class="panel-heading">新建订单</div>
+		<div class="panel-body">
+
+			<form class="form-inline" method="post" action="">
+				<div class="form-group">
+					<label for="inputUrl">URL</label>
+					<input type="text" class="form-control" id="inputUrl" name="url" placeholder="http://www.baidu.com">
+				</div>
+				<div class="form-group">
+					<label for="inputNum">数量</label>
+					<input type="text" class="form-control" id="inputNum" name="count" placeholder="1000">
+				</div>
+				<button type="submit" class="btn btn-default" value="提 交">提 交</button>
+			</form>
+
+		</div>
+	</div>
+
+
+
+{% endblock %}
